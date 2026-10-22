@@ -27,14 +27,14 @@ Le système s’écrit :
 $$
 \begin{aligned}
 \frac{dS_t}{S_t}
-&=(r-q)\,dt+\sqrt{V_t}\,dW_t^S,\\[2mm]
+&=(r-q)\,dt+\sqrt{V_t}\,dW_t^S,\\
 V_t
 &=V_0+
 \frac{1}{\Gamma(H+\tfrac12)}
 \int_0^t(t-s)^{H-\frac12}\kappa(\theta-V_s)\,ds\\
 &\quad+
 \frac{1}{\Gamma(H+\tfrac12)}
-\int_0^t(t-s)^{H-\frac12}\xi\sqrt{V_s}\,dW_s^V,\\[2mm]
+\int_0^t(t-s)^{H-\frac12}\xi\sqrt{V_s}\,dW_s^V,\\
 d\langle W^V,W^S\rangle_t&=\rho_{V,S}\,dt.
 \end{aligned}
 $$
@@ -55,7 +55,7 @@ Les dynamiques continues des facteurs, avant les corrections numériques, sont :
 
 $$
 \begin{aligned}
-dy_t&=\kappa(\theta-y_t)\,dt+\xi\sqrt{y_t}\,dW_t^y,\\[1mm]
+dy_t&=\kappa(\theta-y_t)\,dt+\xi\sqrt{y_t}\,dW_t^y,\\
 dH_t&=\lambda(\eta-H_t)\,dt
 +\zeta\sqrt{H_t(1-H_t)}\,dW_t^H.
 \end{aligned}
