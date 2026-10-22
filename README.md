@@ -94,8 +94,8 @@ $$
 \begin{aligned}
 v_t&=\log V_0+A_t
 +\int_0^t K(t,s)\kappa(\theta-y_s)\,ds
-+\int_0^t K(t,s)\xi\sqrt{y_s}\,dW_s^y,\\[1mm]
-V_t&=e^{v_t},\\[1mm]
++\int_0^t K(t,s)\xi\sqrt{y_s}\,dW_s^y,\\
+V_t&=e^{v_t},\\
 \frac{dS_t}{S_t}&=(r-q)\,dt+e^{v_t/2}\,dW_t^S.
 \end{aligned}
 $$
