@@ -88,6 +88,8 @@ c(h)=\frac{\sqrt{2h\sin(\pi h)\Gamma(2h)}}{\Gamma(h+\tfrac12)},
 K(t,s)=c(H_s)(t-s)^{H_s-\frac12}.
 $$
 
+
+Cette expression pour c(h) permet de rendre constante et unitaire la variance de la log-vol. Ceci signifie que l'exposent de hurst peut varier librement avec une variance constante ; les deux concepts devant complètement distincts.
 Pour \(t\geq0\), le système complet s’écrit :
 
 $$
